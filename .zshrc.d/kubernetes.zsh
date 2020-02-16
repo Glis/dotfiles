@@ -1,3 +1,6 @@
+source "/usr/local/opt/kube-ps1/share/kube-ps1.sh"
+PS1='$(kube_ps1)'$PS1
+
 # Lazy load of kubectl completion
 function kubectl() {
     if ! type __start_kubectl >/dev/null 2>&1; then

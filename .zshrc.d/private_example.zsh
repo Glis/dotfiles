@@ -17,3 +17,4 @@
 
 # My private alias
 # alias sshprivate="ssh user@my_private_server"
+source <(antibody init)

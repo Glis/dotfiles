@@ -10,3 +10,5 @@ for i in ~/.bashrc.d/* ; do
         source $i
     fi
 done
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
